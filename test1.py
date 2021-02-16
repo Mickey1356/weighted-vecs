@@ -38,13 +38,13 @@ num_NR_iter = 20
 reps = 1
 
 # generate 3 random vectors (the first two are the test vectors, and the third is the extra vector)
-set_angle = 0 / 180 * pi
+set_angle = 1 / 180 * pi
 x = np.cos(set_angle)
 y = np.sin(set_angle)
 vecs = np.array([[1, 0], [x, y]])
 vecs = np.append(vecs, np.random.standard_normal(size=(1, 2)), axis=0)
 # vecs = np.random.standard_normal(size=(3, p))
-vecs = np.array([np.array(v) / np.linalg.norm(v) for v in vecs])
+# vecs = np.array([np.array(v) / np.linalg.norm(v) for v in vecs])
 print(vecs)
 
 # calculate the actual angles
