@@ -290,8 +290,8 @@ def main():
     total, iters = get_iterator(N, get_all=CALC_ALL)
     
     # set the size of dimensions to check
-    # Ks = range(10, 701, 10)
-    Ks = range(800, 1001, 50)
+    Ks = range(10, 101, 10)
+    # Ks = range(800, 1001, 50)
 
     # load rng_state (if needed)
     # rng_s = pickle.load(open('rng_state.out', 'rb'))
