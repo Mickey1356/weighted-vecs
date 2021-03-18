@@ -2,4 +2,6 @@ __pycache__/
 .vscode/
 res/
 angles_dict.npy
-data/
+data/*.data
+data/*.npy
+data/*.pkl
