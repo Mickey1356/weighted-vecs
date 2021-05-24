@@ -280,6 +280,10 @@ def main():
     # higher is better, to avoid the overhead from transferring from cpu to gpu as much as possible
     # for a 6gb gpu, mnist: 120000, gisette: 32000
     batch_size = 32000
+    
+    # set the size of dimensions to check
+    Ks = range(10, 101, 10)
+    # Ks = range(800, 1001, 50)
 
     # mnist dataset
     # data, (N, _) = load_mnist()
@@ -288,10 +292,6 @@ def main():
     data, (N, _) = load_gisette()
     
     total, iters = get_iterator(N, get_all=CALC_ALL)
-    
-    # set the size of dimensions to check
-    Ks = range(10, 101, 10)
-    # Ks = range(800, 1001, 50)
 
     # load rng_state (if needed)
     # rng_s = pickle.load(open('rng_state.out', 'rb'))
@@ -307,7 +307,7 @@ def main():
                 errs = sim_one_K(K, data, iters, total, batch_size)
                 f.write(f'{K},{i_num},{",".join(str(e) for e in errs)}\n')
     
-    # if pausing: just save numpy rng state so i can restore from this point in the future
+    # if pausing: just save numpy rng state so can restore from this point in the future
     # pickle.dump(np.random.get_state(), open('rng_state.out', 'wb'))
 
 
