@@ -1,0 +1,93 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{Achlioptas:2003:DRP:861182.861189}
+Achlioptas, D.: {Database-friendly Random Projections: Johnson-Lindenstrauss
+  with Binary Coins}. J. Comput. Syst. Sci.  \textbf{66}(4),  671--687 (Jun
+  2003). \doi{10.1016/S0022-0000(03)00025-4},
+  \url{http://dx.doi.org/10.1016/S0022-0000(03)00025-4}
+
+\bibitem{broder1997resemblance}
+Broder, A.Z.: On the resemblance and containment of documents. In: Compression
+  and Complexity of Sequences 1997. Proceedings. pp. 21--29. IEEE (1997)
+
+\bibitem{charikar2002similarity}
+Charikar, M.S.: {Similarity estimation techniques from rounding algorithms}.
+  In: Proceedings of the thiry-fourth annual ACM symposium on Theory of
+  computing. pp. 380--388. ACM (2002)
+
+\bibitem{glynn2002some}
+Glynn, P.W., Szechtman, R.: Some new perspectives on the method of control
+  variates. In: Monte Carlo and Quasi-Monte Carlo Methods 2000, pp. 27--49.
+  Springer (2002)
+
+\bibitem{goemans1995improved}
+Goemans, M.X., Williamson, D.P.: Improved approximation algorithms for maximum
+  cut and satisfiability problems using semidefinite programming. Journal of
+  the ACM (JACM)  \textbf{42}(6),  1115--1145 (1995)
+
+\bibitem{NIPS2004_2728}
+Guyon, I., Gunn, S., Ben-Hur, A., Dror, G.: {Result Analysis of the NIPS 2003
+  Feature Selection Challenge}. In: Saul, L.K., Weiss, Y., Bottou, L. (eds.)
+  Advances in Neural Information Processing Systems 17, pp. 545--552. MIT Press
+  (2005)
+
+\bibitem{guyon2004result}
+Guyon, I., Gunn, S.R., Ben-Hur, A., Dror, G.: Result analysis of the nips 2003
+  feature selection challenge. In: NIPS. vol.~4, pp. 545--552 (2004)
+
+\bibitem{Indyk:1998:ANN:276698.276876}
+Indyk, P., Motwani, R.: {Approximate Nearest Neighbors: Towards Removing the
+  Curse of Dimensionality}. In: Proceedings of the Thirtieth Annual ACM
+  Symposium on Theory of Computing. pp. 604--613. STOC '98, ACM, New York, NY,
+  USA (1998). \doi{10.1145/276698.276876},
+  \url{http://doi.acm.org/10.1145/276698.276876}
+
+\bibitem{Kang2017}
+Kang, K.: {Using the Multivariate Normal to Improve Random Projections}. In:
+  Intelligent Data Engineering and Automated Learning -- IDEAL 2017: 18th
+  International Conference, Guilin, China, October 30 -- November 1, 2017,
+  Proceedings. pp. 397--405. Springer International Publishing, Cham (2017)
+
+\bibitem{Kang2021-correlations}
+Kang, K.: {Correlations between random projections and the bivariate normal}.
+  Data Mining and Knowledge Discovery  (May 2021).
+  \doi{10.1007/s10618-021-00764-6},
+  \url{https://doi.org/10.1007/s10618-021-00764-6}
+
+\bibitem{kang2018improving}
+Kang, K., Wong, W.P.: Improving sign random projections with additional
+  information. In: International Conference on Machine Learning. pp.
+  2479--2487. PMLR (2018)
+
+\bibitem{lecun1998gradient}
+LeCun, Y., Bottou, L., Bengio, Y., Haffner, P.: Gradient-based learning applied
+  to document recognition. Proceedings of the IEEE  \textbf{86}(11),
+  2278--2324 (1998)
+
+\bibitem{li2006improving}
+Li, P., Hastie, T.J., Church, K.W.: Improving random projections using marginal
+  information. In: International Conference on Computational Learning Theory.
+  pp. 635--649. Springer (2006)
+
+\bibitem{Lichman:2013}
+Lichman, M.: {{UCI} Machine Learning Repository} (2013),
+  \url{http://archive.ics.uci.edu/ml}
+
+\bibitem{rubinstein1985efficiency}
+Rubinstein, R.Y., Marcus, R.: Efficiency of multivariate control variates in
+  monte carlo simulation. Operations Research  \textbf{33}(3),  661--677 (1985)
+
+\bibitem{slaney2008locality}
+Slaney, M., Casey, M.: Locality-sensitive hashing for finding nearest neighbors
+  [lecture notes]. IEEE Signal processing magazine  \textbf{25}(2),  128--131
+  (2008)
+
+\bibitem{szechtman2001constrained}
+Szechtman, R., Glynn, P.W.: Constrained monte carlo and the method of control
+  variates. In: Proceeding of the 2001 Winter Simulation Conference (Cat. No.
+  01CH37304). vol.~1, pp. 394--400. IEEE (2001)
+
+\end{thebibliography}
